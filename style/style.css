@@ -54,6 +54,10 @@ div.logo{
     padding: 1rem;
 }
 
+div.user{
+    margin-bottom: 60px;
+}
+
 /* ---MAIN--- */
 
 main{
@@ -149,7 +153,9 @@ div.round{
 footer{
     height: 80px;
     width: 100%;
-    /* position: fixed; */
+    position: fixed;
+    bottom: 0;
     background-color: #282828;
     display: flex; 
+    z-index: 1;
 }
