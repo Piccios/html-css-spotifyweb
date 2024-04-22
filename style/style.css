@@ -158,4 +158,50 @@ footer{
     background-color: #282828;
     display: flex; 
     z-index: 1;
+    justify-content: space-between;
 }
+
+div.song img{
+    width: 45px;
+    justify-content: center;
+    margin: 1rem 0.5rem
+}
+
+div.now-playing-info{
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+div.now-playing-info h3{
+    color: white;
+    font-size: 0.8rem;
+}
+
+div.now-playing-info p{
+    color: #747474;
+    font-size: 0.7rem;
+}
+
+div.favourite{
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+section.player{
+    flex-direction: column;
+}
+
+section.player div.player-controls{
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+section.volume{
+    align-items: center;
+
+}
+
+
