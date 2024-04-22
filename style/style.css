@@ -142,12 +142,14 @@ div.round{
     border-radius: 50%;
 }
 
+
+
 /* ---FOOTER--- */
 
 footer{
     height: 80px;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     background-color: #282828;
-    display: flex;
+    display: flex; 
 }
