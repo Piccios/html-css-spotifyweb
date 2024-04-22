@@ -143,3 +143,11 @@ div.round{
 }
 
 /* ---FOOTER--- */
+
+footer{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #282828;
+    display: flex;
+}
