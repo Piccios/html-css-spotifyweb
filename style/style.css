@@ -18,6 +18,10 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+a:hover{
+    color: white;
+}
+
 /* ---HEADER--- */
 
 header{
@@ -42,11 +46,7 @@ section.sidenav{
     flex-direction: column;
 }
 
-section.sidenav a:hover{
-    color: white;
-}
-
-div.logo {
+div.logo{
     padding: 1rem;
 }
 
@@ -65,5 +65,50 @@ section.upgrade{
     justify-content: end;
     align-items: center;
 }
+
+section.navbar div.navbar{
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div.navbar ul{
+    display: flex;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+div.navbar ul li a{
+    padding: 1rem;
+}
+
+section.main-content{
+    padding: 1rem
+}
+
+h1{
+    color: white;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+section.main-content div.img{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+section.main-content h3{
+    color: white;
+    font-size: .8rem;
+}
+
 
 /* ---FOOTER--- */
