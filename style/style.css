@@ -50,11 +50,20 @@ div.logo {
     padding: 1rem;
 }
 
-
-
-
-
-
 /* ---MAIN--- */
+
+main{
+    background-color: #141922;
+    height: 100vh;
+    margin: 0 0 0 250px;
+}
+
+section.upgrade{
+    background-color: #080b12;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 
 /* ---FOOTER--- */
