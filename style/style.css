@@ -125,9 +125,21 @@ article.media{
     margin: 1.5rem 0.5rem;
 }
 
+section.for-you{
+    margin: 1rem;
+}
+
 div.for-you{
     justify-content: start;
     align-items: start;
+}
+
+section.mainstream{
+    margin: 1rem;
+}
+
+div.round{
+    border-radius: 50%;
 }
 
 /* ---FOOTER--- */
