@@ -20,7 +20,8 @@ body{
 
 /* ---HEADER--- */
 
-section.sidenav{
+header{
+    display: flex;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -33,6 +34,12 @@ section.sidenav{
     padding: 1.5rem;
     font-weight: 500;
     padding-top: 0;
+}
+
+section.sidenav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 section.sidenav a:hover{
