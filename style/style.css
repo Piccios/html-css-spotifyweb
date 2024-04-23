@@ -60,6 +60,7 @@ div.user i{
     font-size: 1.2rem;
     position: relative;
     top: 3px;
+    color: #747474;
 }
 
 section.sidenav{
@@ -70,6 +71,10 @@ section.sidenav{
 
 div.logo{
     padding: 1rem 1rem 0 0;
+}
+
+img.img2{
+    display: none;
 }
 
 div.playlists{
@@ -281,5 +286,51 @@ section.volume{
     align-items: center;
 }
 
+
 /* MEDIA QUERIES */
 
+@media all and (max-width: 1024px){
+    
+
+}
+
+@media all and (max-width: 767px){ 
+
+}
+    
+
+@media all and (max-width: 360px){
+
+    header,
+    section.sidenav{
+        width: 60px;
+    }
+
+    img.img1{
+        display: none;
+    }
+
+    img.img2{
+        display: block;
+        height: 30px;
+    }
+
+    div.nav a{
+        display: none;
+    }
+
+    div.playlists{
+        display: none;
+    }
+
+    div.user i{
+        padding-left: 0.3rem;
+    }
+    div.user a{
+        display: none;
+    }
+
+    div.user hr{
+        display: none;
+    }
+}
