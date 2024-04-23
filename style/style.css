@@ -30,7 +30,7 @@ a:hover{
 
 header{
     display: flex;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     width: 200px;
     position: fixed;
     z-index: 1;
@@ -39,7 +39,7 @@ header{
     background-color: black;
     color: white;
     overflow-x: hidden;
-    padding: 1.5rem;
+    padding: 1rem;
     font-weight: 500;
     padding-top: 0;
 }
@@ -50,6 +50,18 @@ div.nav ul li{
     font-weight: 700;
 }
 
+div.nav i,
+div.playlists{
+    padding: 0.3rem;
+}
+
+div.nav i,
+div.user i{
+    font-size: 1.2rem;
+    position: relative;
+    top: 3px;
+}
+
 section.sidenav{
     display: flex;
     justify-content: space-between;
@@ -57,12 +69,59 @@ section.sidenav{
 }
 
 div.logo{
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 1rem 0 0;
 }
 
-div.user{
-    margin-bottom: 60px;
+div.playlists{
+    margin-top: 1rem;
 }
+
+div.playlists h2{
+    font-size: 0.8rem;
+}
+
+div.playlists i{
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+}
+
+div.playlists p{
+    padding-top: 0.8rem;
+}
+
+
+div.playlists li{
+    padding-top: 0.9rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+div.user p{
+    font-size: 0.6rem;
+    padding-bottom: 0.3rem;
+    color: #747474;  
+}
+
+div.user h2{
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding-top: 0.2rem;
+}
+
+div.user i{
+    padding-right: 0.5rem;
+    color: #747474;
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+}
+
+div.user hr{
+    border: none;
+    border-top: 2px solid #333;
+    width: 150px;
+    
+}
+
 
 /* ---MAIN--- */
 
@@ -169,7 +228,7 @@ div.round{
 /* ---FOOTER--- */
 
 footer{
-    height: 80px;
+    height: 70px;
     width: 100%;
     position: fixed;
     bottom: 0;
