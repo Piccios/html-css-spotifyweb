@@ -111,6 +111,7 @@ div.user h2{
     font-size: 0.7rem;
     font-weight: 600;
     padding-top: 0.2rem;
+    color: white;
 }
 
 div.user i{
@@ -124,7 +125,6 @@ div.user hr{
     border: none;
     border-top: 2px solid #333;
     width: 150px;
-    
 }
 
 
@@ -135,6 +135,7 @@ main{
     flex-direction: column;
     background-color: #141922;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 section.upgrade button.upgrade{
@@ -312,8 +313,13 @@ footer{
     color: white;
 }
 
+i{
+    color: #747474;
+    padding-right: 1rem;
+}
+
 div.song img{
-    width: 45px;
+    width: 40px;
     justify-content: center;
     margin: 1rem 0.5rem
 }
@@ -326,7 +332,7 @@ div.now-playing-info{
 
 div.now-playing-info h3{
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 
 div.now-playing-info p{
@@ -344,14 +350,35 @@ section.player{
     flex-direction: column;
 }
 
+section.player i{
+    color: white;
+}
+
 section.player div.player-controls{
     justify-content: center;
     margin-top: 1rem;
+    align-items: center;
 }
-
 
 section.volume{
     align-items: center;
+}
+
+section.volume i{
+    color: white;
+    font-size: 0.7rem;
+}
+
+input.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+
 }
 
 
@@ -371,7 +398,9 @@ section.volume{
 @media all and (max-width: 387px){
 
     /* ---MAIN--- */
-
+    section.main-content{
+        padding-left: 50px;
+    }
 
     /* ---HEADER--- */
     header,
