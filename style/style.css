@@ -62,13 +62,13 @@ div.user{
 
 main{
     background-color: #141922;
-    height: 100vh;
+    width: calc(100% - 250px);
     margin: 0 0 0 250px;
 }
 
 main div.img{
-    height: 100px;
-    width: 100px;
+    width: 200px;
+    height: 200px;
     background-color: blue;
     color: white;
 }
@@ -83,6 +83,7 @@ main p{
     font-size: .5rem;
     margin-top: .2rem;
     font-weight: 500;
+    margin-left: 0.3rem;
 }
 
 section.upgrade{
@@ -91,42 +92,45 @@ section.upgrade{
     display: flex;
     justify-content: end;
     align-items: center;
+    max-width: auto;
 }
 
 section.navbar div.navbar{
     padding: 1rem 10rem;
-    display: flex;
     justify-content: space-around;
     flex-direction: row;
+    width: 100%;
 }
 
 div.navbar ul{
-    display: flex;
     font-weight: 700;
     font-size: 0.8rem;
 }
 
 div.navbar ul li a{
     padding: 1rem;
+    font-size: 0.5rem;
 }
 
 section.main-content{
-    padding: 1rem
+    padding: 1rem;
+    justify-content: center;
+
 }
 
 h1{
     color: white;
+    margin-left: 0.3rem;
 }
 
 div.recently-played{
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
 
 article.media{
     flex-direction: column;
     align-items: center;
-    margin: 1.5rem 0.5rem;
+    margin: 1rem .3rem;
 }
 
 section.for-you{
@@ -146,8 +150,6 @@ div.round{
     border-radius: 50%;
 }
 
-
-
 /* ---FOOTER--- */
 
 footer{
@@ -159,6 +161,7 @@ footer{
     display: flex; 
     z-index: 1;
     justify-content: space-between;
+    color: white;
 }
 
 div.song img{
@@ -201,7 +204,7 @@ section.player div.player-controls{
 
 section.volume{
     align-items: center;
-
 }
 
+/* MEDIA QUERIES */
 
