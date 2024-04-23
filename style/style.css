@@ -31,7 +31,7 @@ a:hover{
 header{
     display: flex;
     height: calc(100vh - 80px);
-    width: 250px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -44,6 +44,12 @@ header{
     padding-top: 0;
 }
 
+div.nav ul li{
+    padding-top: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
 section.sidenav{
     display: flex;
     justify-content: space-between;
@@ -51,7 +57,7 @@ section.sidenav{
 }
 
 div.logo{
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
 div.user{
@@ -65,7 +71,7 @@ main{
     flex-direction: column;
     background-color: #141922;
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: 100vh;
 }
 
 section.upgrade button.upgrade{
