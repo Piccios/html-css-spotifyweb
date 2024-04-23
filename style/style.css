@@ -135,12 +135,24 @@ main{
     flex-direction: column;
     background-color: #141922;
     width: 100vw;
-    height: 100vh;
+
 }
 
 section.upgrade button.upgrade{
-    margin: 2rem;
+    margin: 1.5rem 1rem;
 }
+
+button.upgrade{
+    background-color: #080b12;
+    border: solid white 1px;
+    color: white;
+    padding: 0.6rem 1.7rem;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
 
 main div.img{
     width: 200px;
@@ -296,11 +308,16 @@ section.volume{
 
 @media all and (max-width: 767px){ 
 
+
 }
     
 
-@media all and (max-width: 360px){
+@media all and (max-width: 387px){
 
+    /* ---MAIN--- */
+
+
+    /* ---HEADER--- */
     header,
     section.sidenav{
         width: 60px;
@@ -313,6 +330,7 @@ section.volume{
     img.img2{
         display: block;
         height: 30px;
+        margin-left: 1px;
     }
 
     div.nav a{
