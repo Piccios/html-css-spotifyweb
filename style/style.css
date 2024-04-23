@@ -30,7 +30,7 @@ a:hover{
 
 header{
     display: flex;
-    height: 100%;
+    height: calc(100vh - 80px);
     width: 250px;
     position: fixed;
     z-index: 1;
@@ -61,9 +61,15 @@ div.user{
 /* ---MAIN--- */
 
 main{
+    display: flex;
+    flex-direction: column;
     background-color: #141922;
-    width: calc(100% - 250px);
-    margin: 0 0 0 250px;
+    width: 100vw;
+    height: calc(100vh - 80px);
+}
+
+section.upgrade button.upgrade{
+    margin: 2rem;
 }
 
 main div.img{
@@ -115,7 +121,8 @@ div.navbar ul li a{
 section.main-content{
     padding: 1rem;
     justify-content: center;
-
+    margin: 1rem;
+    padding-left: 250px;
 }
 
 h1{
@@ -135,6 +142,7 @@ article.media{
 
 section.for-you{
     margin: 1rem;
+    padding-left: 250px;
 }
 
 div.for-you{
@@ -144,11 +152,13 @@ div.for-you{
 
 section.mainstream{
     margin: 1rem;
+    padding-left: 250px;
 }
 
 div.round{
     border-radius: 50%;
 }
+
 
 /* ---FOOTER--- */
 
