@@ -152,24 +152,27 @@ button.upgrade{
     font-weight: 600;
 }
 
+article p{
+    text-align: center;
+}
 
 main div.img{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    color: white;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0.8rem;
 }
 
 main h3{
     color: white;
     font-size: .8rem;
+    text-align: center;
 }
 
 main p{
     color: #747474;
-    font-size: .5rem;
-    margin-top: .2rem;
-    font-weight: 500;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+    font-weight: 700;
     margin-left: 0.3rem;
 }
 
@@ -187,22 +190,25 @@ section.navbar div.navbar{
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
+    margin-left: 2rem;
 }
 
 div.navbar ul{
     font-weight: 700;
     font-size: 0.8rem;
+    flex-wrap: wrap;
 }
 
 div.navbar ul li a{
     padding: 1rem;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 section.main-content{
     padding: 1rem;
-    justify-content: center;
-    max-width: 1100px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    max-width: 1250px;
     margin: 1rem;
     padding-left: 200px;
 }
@@ -213,13 +219,16 @@ h1{
 }
 
 div.recently-played{
-    justify-content: space-between;
+    justify-content: start;
+    max-width: 1250px;
+    flex-wrap: wrap;
 }
 
 article.media{
     flex-direction: column;
     align-items: center;
     margin: 1rem .3rem;
+    max-width: 150px;
 }
 
 section.for-you{
@@ -241,6 +250,52 @@ section.mainstream{
 div.round{
     border-radius: 50%;
 }
+
+div.img{
+    background-size: cover;
+}
+
+#image1{
+    background-image: url(../style/img/metal_lifting.jpg);
+}
+
+#image2{
+    background-image: url(../style/img/stranger.jpeg);
+}
+
+#image3{
+    background-image: url(../style/img/aquietplace.jpeg);
+}
+
+#image4{
+    background-image: url(../style/img/split.jpeg);
+}
+
+#image5{
+    background-image: url(../style/img/cure.jpeg);
+}
+
+#image6{
+    background-image: url(../style/img/sinister.jpeg);
+}
+
+#image7{
+    background-image: url(../style/img/radar.jpeg);
+}
+
+#image8{
+        background-image: url(../style/img/mixdaily.jpeg);
+}
+
+#image9{
+    background-image: url(../style/img/youg.jpeg);
+}
+
+#image10{
+    background-image: url(../style/img/einaudi.jpeg);
+}
+
+
 
 
 /* ---FOOTER--- */
