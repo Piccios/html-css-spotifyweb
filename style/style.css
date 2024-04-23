@@ -135,7 +135,6 @@ main{
     flex-direction: column;
     background-color: #141922;
     width: 100vw;
-
 }
 
 section.upgrade button.upgrade{
@@ -155,8 +154,8 @@ button.upgrade{
 
 
 main div.img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: blue;
     color: white;
 }
@@ -203,8 +202,9 @@ div.navbar ul li a{
 section.main-content{
     padding: 1rem;
     justify-content: center;
+    max-width: 1100px;
     margin: 1rem;
-    padding-left: 250px;
+    padding-left: 200px;
 }
 
 h1{
@@ -224,7 +224,7 @@ article.media{
 
 section.for-you{
     margin: 1rem;
-    padding-left: 250px;
+    padding-left: 200px;
 }
 
 div.for-you{
@@ -234,7 +234,8 @@ div.for-you{
 
 section.mainstream{
     margin: 1rem;
-    padding-left: 250px;
+    padding-left: 200px;
+    margin-bottom: 90px;
 }
 
 div.round{
