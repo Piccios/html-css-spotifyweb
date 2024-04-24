@@ -63,6 +63,12 @@ div.user i{
     color: #747474;
 }
 
+i:hover,
+div.nav i:hover,
+div.user i:hover{
+    color: white;
+}
+
 section.sidenav{
     display: flex;
     justify-content: space-between;
@@ -161,6 +167,22 @@ main div.img{
     width: 150px;
     height: 150px;
     margin-bottom: 0.8rem;
+
+    
+}
+
+main div.img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+div.i{
+    color: white;
+    font-size: 3rem;
+    padding: 3rem;
+
 }
 
 main h3{
