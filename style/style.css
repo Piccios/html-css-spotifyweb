@@ -318,6 +318,9 @@ i{
     padding-right: 1rem;
 }
 
+section.now-playing{
+    width: 30%;
+}
 div.song img{
     width: 40px;
     justify-content: center;
@@ -370,11 +373,32 @@ div.buttons{
 }
 
 div.progression-bar p{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+div.bar{
+    margin: auto;
+    width: 80%;
+    height: 4px;
+    background-color: #747474;
+    border-radius: 1rem;
+}
+
+div.bar{    
+    width: 50%;
+}
+
+
+div.play{
+    width: 80%;
 }
 
 section.volume{
     align-items: center;
+    width: 15%;
+;
 }
 
 section.volume i{
@@ -382,13 +406,7 @@ section.volume i{
     font-size: 0.7rem;
 }
 
-footer div.play-bar{
-    margin: auto;
-    width: 80%;
-    height: 4px;
-    background-color: #747474;
-    border-radius: 1rem;
-}
+
 
 
 /* MEDIA QUERIES */
