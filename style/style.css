@@ -285,7 +285,7 @@ div.img{
 }
 
 #image8{
-        background-image: url(../style/img/mixdaily.jpeg);
+    background-image: url(../style/img/mixdaily.jpeg);
 }
 
 #image9{
@@ -302,7 +302,7 @@ div.img{
 /* ---FOOTER--- */
 
 footer{
-    height: 70px;
+    height: 80px;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -348,16 +348,29 @@ div.favourite{
 
 section.player{
     flex-direction: column;
+    width: 350px;
 }
 
 section.player i{
     color: white;
+    margin-bottom: 7px ;
+}
+
+section.player i.fa-circle-play{
+    font-size: 1.5rem;
 }
 
 section.player div.player-controls{
-    justify-content: center;
     margin-top: 1rem;
-    align-items: center;
+    width: 100%;
+}
+
+div.buttons{
+    padding-left: 90px;
+}
+
+div.progression-bar p{
+    font-size: 0.5rem;
 }
 
 section.volume{
@@ -369,16 +382,12 @@ section.volume i{
     font-size: 0.7rem;
 }
 
-input.slider{
-    -webkit-appearance: none;
-    width: 100%;
-    height: 3px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    margin-top: 0.5rem;
-
+footer div.play-bar{
+    margin: auto;
+    width: 80%;
+    height: 4px;
+    background-color: #747474;
+    border-radius: 1rem;
 }
 
 
