@@ -69,6 +69,14 @@ div.user i:hover{
     color: white;
 }
 
+div.nav ul li.border-left{
+    border-left: solid 2px green;
+    padding-top: 0;
+    margin-top: 0.5rem;
+}
+
+
+
 section.sidenav{
     display: flex;
     justify-content: space-between;
@@ -99,7 +107,6 @@ div.playlists i{
 div.playlists p{
     padding-top: 0.8rem;
 }
-
 
 div.playlists li{
     padding-top: 0.9rem;
@@ -158,8 +165,6 @@ button.upgrade{
     font-size: 0.6rem;
     font-weight: 600;
 }
-
-
 
 article p{
     text-align: center;
@@ -221,6 +226,11 @@ section.navbar div.navbar{
     min-width: 200px;
 }
 
+div.navbar ul li.border-bottom{
+    border-bottom: solid 2px green;
+    padding-top: 0;
+}
+
 div.navbar ul{
     font-weight: 700;
     font-size: 0.8rem;
@@ -228,12 +238,8 @@ div.navbar ul{
     justify-content: center;
 }
 
-div.navbar ul li{
-    padding-bottom: 1.5rem;
-}
-
 div.navbar ul li a{
-    padding: 1rem;
+    margin: 0.5rem 1rem;
     font-size: 0.7rem;
 }
 
