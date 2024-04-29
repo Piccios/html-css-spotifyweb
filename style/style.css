@@ -438,7 +438,6 @@ div.play{
 section.volume{
     align-items: center;
     width: 15%;
-;
 }
 
 section.volume i{
@@ -479,6 +478,14 @@ section.volume i{
 
     div.navbar ul li{
         padding-bottom: 1.5rem;
+    }
+
+    section.for-you{
+        padding-left: 50px;
+    }
+
+    section.mainstream{
+        padding-left: 50px;
     }
 
     /* ---HEADER--- */
